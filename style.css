@@ -1,46 +1,59 @@
-  .heading {
-    font-size: 23px;
-    width: 100%;
-    margin: 0px;
-    box-shadow: 5px 5px 5px grey;
-  }
+body {
+  background: linear-gradient(plum 0%, pink 50%, lightblue 100%);
+  text-align: center;
+}
 
-  .heading_div {
-    float: none;
-    padding: 10px;
-    background: white;
-    border-radius: 20px;
-    color: black;
-    box-shadow: 5px 5px 5px grey;
-  }
+.test_image_and_result {
+  background-color: lightgrey;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 18px grey;
+}
 
-  .heading_div2 {
-    font-size: 18px;
-  }
+.mini_result {
+  text-align: center;
+  color: mediumpurple;
+}
 
-  .result_para_tag {
-    box-shadow: 5px 5px 5px grey;
-    font-size: 20px;
-  }
+.copy_right_footer {
+  position: fixed;
+  color: aliceblue;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  line-height: 3;
+  text-align: center;
+}
 
-  .result_para_tag span {
-    white-space: pre-line;
-  }
+ol h5 {
+  background: white;
+  padding: 13px;
+  border-radius: 20px;
+}
 
-  .copy_right_footer {
-    position: fixed;
-    color: aliceblue;
-    bottom: 0;
-    width: 100%;
-    background-color: grey;
-    line-height: 3;
-    text-align: center;
-  }
+span {
+  color: red;
+  font-size: 16px;
+}
 
-  canvas
-  {
-    border: 5px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px gray;
-    margin-top: 160px;
-  }
+li img {
+  border: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+  width: 300px;
+}
+
+b {
+  color: purple;
+}
+
+.result {
+  box-shadow: 5px 5px 18px grey;
+  letter-spacing: 2px;
+  background: #F2BAC9;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid grey;
+}
